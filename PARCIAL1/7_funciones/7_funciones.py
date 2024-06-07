@@ -55,19 +55,4 @@ print(f"la suma es : (suma())")
 
 def suma(n1,n2)
     n1=int(input("numero #1: "))
-    n2=int(input("numero #2: "))
-
-suma=n1+n2
-return suma
-
-
-resultado_suma=suma()
-print(f"la suma es : (resultado_suma())")
-
-
-#ejemplo 6 / crear un programa que solicite atraves de una funcion lo sigueiinte informacion: Nombre del paciente, edad, estatura, tipo de sangre, utilizar los 4 tipos de funciones.
-
-
-
-
-#comentario de prueba git otra vez
+    n2=int(input("numero #2: ")
