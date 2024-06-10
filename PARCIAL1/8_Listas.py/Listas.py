@@ -1,43 +1,85 @@
-""" list: (array)
-son colecciones o conjuntos de datos/valores bajo un mismo nombre 
-para acceder a los valores se hace con un indice numeri
+# """
+# List (Array)Son colecciones o conjunto de datos/valores bajo un mismo nombre, para acceder a los valores se hace con un indice numerico
 
-Notas: sus valores si son modificables
-Las listas es una coleccion ordenada y modificable, 
-Permite elementos duplicados.
+# Nota: sus valores si son modificables
 
-"""
+# La lista es una colección ordenada y modificable.
+# Permite miembres duplicados
+# """
 
-#Ejemplo 1 .- crear una lista de numeros e imprimir el contenido 
-
-numeros=[23,34]
-print(numeros)
-
-
+# """
+# #Ejemplo 1: Crear una lista de números e imprimir el contenido
+# list=["a","b","c"]
+# for i in list:
+#     print(i)
 
 
+# i=0
+# cont=len(list)-1
+# while i <= cont:
+#     print(list[i])
+#     i+=1
+# """
+
+# #Ejemplo 2: Crear una lista de palabras y posteriormente buscar la coincidencia de una palabra en 
+
+# palabras=["Carlos", "Jair", "Navarro", "Huerta"]
+# palabra=input("Ingrese la palabra: ")
+# # for i in palabras:
+# #     if i == palabra:
+# #         print(palabras.index)
+# #         #print(f"Encontrado en: {i}")
+
+# repetir = True
+# # while palabra in palabras:
+# #     print(palabra)
+
+# i=o
+# while i<len(palabras):
+#     if palabra in palabras:
+#         print(palabras.index(i))
+#         repetir=False
 
 
-#Ejemplo 2 crear una lista de palabras y posteriormente  buscar la coincidencia de una palbara 
+# """Investigar todo sobre Listas
 
 
-# palabras=["naranja","utd","america","azul"]
- # palabra_buscar=input("Ingresa la palabra a buscar:    ")
+# #ejemplo 3: agregar y eliminar elementos de una lista
+# #os.system("clear")
 
-numeros[23,34,23]
-print(numeros)
+# numeros=[23,24,25]
+# print(numeros)
 
-#agregar un elemento
-numeros.append(100)
-print(numeros)
-numeros.insert(3,200)
-print(numeros)
+# #agregar elementos
 
-#eliminar un elemento
-numeros.remove(100) # indicar el elemento a borrar 
-print(numeros)
-numeros.pop(2) #indicar la posicion del elemento a borrar
-print(numeros)
+# numeros.append(100)
+# print(numeros)
+# numeros.insert(3,200)
+# print(numeros)
+
+# #eliminar un elementos
+# numeros.remove(100) #Indica el elemento
+# print(numeros)
+# numeros.pop(2) #Indica la posición
+# print(numeros)
+
+
+# """
+
+
+# #Ejemplo 4: Lista Multilinea o Multidimencional (Matriz) con nombres y números
+
+agenda=[
+    ["Carlos", 6632058150],
+    ["Cecilia", 6162303847],
+    ["Miguelito", 6180000000],
+    ["Idaly", 6181111111]
+]
+
+print(agenda)
+
+for i in agenda:
+    print(f"{agenda.index(i)+1} .-{i}")
 
 
 
