@@ -105,7 +105,6 @@ while i:
         print(OperacionesArit(n1, n2))
     elif opcion == "6":
         n1 = int(input("Número: "))
-        n2 = None  # No se usa en la raíz, pero se mantiene para la estructura
         print(OperacionesArit(n1, n2))
     else:
         print("Opción no válida")
