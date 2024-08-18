@@ -4,7 +4,7 @@ conexion=mysql.connector.connect(
     host='localhost',
     user='root',
     password='',
-    database='bd_python'
+    database='hotel'
 )
 
 if conexion.is_connected():
